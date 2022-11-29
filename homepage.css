@@ -1,0 +1,187 @@
+/* Navbar */
+/* li a:hover {
+    background-color: #db7093;
+    font-weight: bold;
+    color: white;
+}
+.active {
+    background-color: #58257b;
+    color: white;
+    border-radius: 10px;
+    text-decoration: underline;
+} */
+/* Other */
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.border {
+    border-radius: 10px;
+}
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+/* User Name */
+.user {
+    font-style: italic;
+}
+.role {
+    font-style: bold;
+    text-decoration: underline;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    justify-content: center;
+}
+  
+  /* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 70px;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-block2 {
+  /* position: absolute; */
+  /* bottom: 70px; */
+  /* right: 20px; */
+  background-color: rgba(0, 0, 0, 0.63);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* border-radius: 10px; */
+  text-align: center;
+  border-radius: 10px;
+  justify-content: center;
+}
+.author {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-decoration: underline;
+}
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container2 {
+  position: relative;
+  justify-content: center;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center
+  }
+  
+  .img2 {
+    max-width: 100%
+  }
+  
+  .image2 {
+    /* flex-basis: 40% */
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+.nav {
+    height: 50px;
+    background: fixed;
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav a:hover {
+    background-color: rgba(128, 128, 128, 0.267);
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+}
+.active {
+    border-radius: 10px;
+    background-color: rgba(47, 79, 79, 0.705);
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.item {
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  border-radius: 10px;
+}
+html { 
+  background: url(https://wallpaperaccess.com/full/31189.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+link {
+  color: #f1f1f1;
+}
