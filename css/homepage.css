@@ -123,7 +123,6 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: center
   }
   
   .img2 {
@@ -184,4 +183,18 @@ html {
 }
 link {
   color: #f1f1f1;
+}
+a {
+  transition: 0.5s;
+}
+a:hover {
+  transform:scale(1.05);
+  z-index: 2;
+}
+.icon {
+  transition: 0.5s;
+}
+.icon:hover {
+  transform:scale(1.010);
+  z-index: 2;
 }
