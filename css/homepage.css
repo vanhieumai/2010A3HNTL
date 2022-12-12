@@ -198,3 +198,9 @@ a:hover {
   transform:scale(1.010);
   z-index: 2;
 }
+.calculator {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
