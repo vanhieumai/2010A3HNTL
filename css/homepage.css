@@ -175,7 +175,7 @@ img {
   border-radius: 10px;
 }
 html { 
-  background: url(https://wallpaperaccess.com/full/31189.jpg) no-repeat center center fixed; 
+  background: url(https://phunugioi.com/wp-content/uploads/2021/12/background-Tet-1.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -207,4 +207,14 @@ a:hover {
 .center {
   text-align: center;
   /* border: 3px solid green; */
+}
+.tet-left {
+ float: left; 
+}
+.tet-right {
+  float: right;
+}
+.tet {
+  position: fixed;
+  float: left; 
 }
